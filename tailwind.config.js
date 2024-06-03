@@ -5,6 +5,10 @@ export default {
     extend: {
       fontFamily: {
         nerko: "Nerko One",
+        lilita: "Lilita One",
+      },
+      backgroundImage: {
+        "hero-image": "url('/quakesCone.jpg')",
       },
     },
   },

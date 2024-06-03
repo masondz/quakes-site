@@ -21,7 +21,7 @@ function App() {
   " */
 
   return (
-    <div className="border-4 border-black">
+    <div>
       <div className="flex flex-row justify-end">
         {" "}
         {/*puts nav at end*/}
@@ -32,11 +32,23 @@ function App() {
           <ListItem>Contact</ListItem>
         </Navbar>
       </div>
-      <div className="border-2 border-green-500">Ice Cream Store</div>
-      <div className="border-2 border-purple-500">Our Flavors</div>
-      <div className="border-2 border-purple-500">Where to find us</div>
-      <div className="border-2 border-purple-500">Our Story</div>
-      <div className="border-2 border-purple-500">Contact Us!</div>
+      <section
+        aria-labelledby="hero-section"
+        className="border-2 border-red-400 h-96"
+      >
+        <header id="hero-section">
+          <h1 className="absolute font-lilita text-7xl">Quakes</h1>
+          <h2 className="absolute font-lilita text-4xl">Ice Creamery</h2>
+          <img
+            src="/quakesCone.jpg"
+            className="opacity-35a object-center scale-125"
+          />
+        </header>
+      </section>
+      <section className="border-2 border-purple-500">Our Flavors</section>
+      <section className="border-2 border-purple-500">Where to find us</section>
+      <section className="border-2 border-purple-500">Our Story</section>
+      <section className="border-2 border-purple-500">Contact Us!</section>
       <footer className="border-2 border-purple-500">legalese</footer>
     </div>
   );
