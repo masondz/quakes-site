@@ -32,18 +32,18 @@ function App() {
           <ListItem>Contact</ListItem>
         </Navbar>
       </div>
-      <section
-        aria-labelledby="hero-section"
-        className="border-2 border-red-400 h-96"
-      >
-        <header id="hero-section">
-          <h1 className="absolute font-lilita text-7xl">Quakes</h1>
-          <h2 className="absolute font-lilita text-4xl">Ice Creamery</h2>
-          <img
-            src="/quakesCone.jpg"
-            className="opacity-35a object-center scale-125"
-          />
+      <section aria-labelledby="hero-section" className="h-96">
+        <header id="hero-section flex flex-col">
+          <h1 className="font-lilita text-7xl float-right">Quakes</h1>
+          <h2 className="right-96 font-lilita text-4xl float-right">
+            Ice Creamery
+          </h2>
         </header>
+        <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-96"></div>
+        <img
+          src="/iceCreamCone.png"
+          className="opacity-35a object-center scale-125 border-b-8 divide-x border-dotted border-green-400 absolute bottom-60 right-80"
+        />
       </section>
       <section className="border-2 border-purple-500">Our Flavors</section>
       <section className="border-2 border-purple-500">Where to find us</section>

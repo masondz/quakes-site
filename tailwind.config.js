@@ -10,6 +10,9 @@ export default {
       backgroundImage: {
         "hero-image": "url('/quakesCone.jpg')",
       },
+      spacing: {
+        jumbo: "75rem",
+      },
     },
   },
   plugins: [],
