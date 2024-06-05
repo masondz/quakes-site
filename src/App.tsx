@@ -39,10 +39,13 @@ function App() {
             Ice Creamery
           </h2>
         </header>
-        <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-96"></div>
+
+        <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-96 -left-4"></div>
+
         <img
           src="/iceCreamCone.png"
-          className="opacity-35a object-center scale-125 border-b-8 divide-x border-dotted border-green-400 absolute bottom-60 right-80"
+          className="opacity-35a object-center scale-125 rounded-full border-b-8 divide-x border-dotted border-green-400 
+          absolute -left-8"
         />
       </section>
       <section className="border-2 border-purple-500">Our Flavors</section>
