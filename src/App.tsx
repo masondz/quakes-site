@@ -32,27 +32,25 @@ function App() {
           <ListItem>Contact</ListItem>
         </Navbar>
       </div>
-      <section aria-labelledby="hero-section" className="h-96">
-        <header id="hero-section flex flex-col">
-          <h1 className="font-lilita text-7xl float-right">Quakes</h1>
-          <h2 className="right-96 font-lilita text-4xl float-right">
-            Ice Creamery
-          </h2>
+      <section aria-labelledby="hero-section" className="h-screen">
+        <header id="hero-section flex justify-end">
+          <h1 className="font-lilita text-7xl justify-end">Quakes</h1>
+          <h2 className="right-96 font-lilita text-4xl">Ice Creamery</h2>
         </header>
 
-        <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-96 -left-4"></div>
+        <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-80 left-20 "></div>
 
         <img
-          src="/iceCreamCone.png"
-          className="opacity-35a object-center scale-125 rounded-full border-b-8 divide-x border-dotted border-green-400 
-          absolute -left-8"
+          src="/iceCreamConeWCircle.png"
+          className="opacity-35a object-center  
+          absolute -left-8 bottom-40  border-b-8 divide-x border-dotted border-green-400"
         />
       </section>
-      <section className="border-2 border-purple-500">Our Flavors</section>
+      {/* <section className="border-2 border-purple-500">Our Flavors</section>
       <section className="border-2 border-purple-500">Where to find us</section>
       <section className="border-2 border-purple-500">Our Story</section>
       <section className="border-2 border-purple-500">Contact Us!</section>
-      <footer className="border-2 border-purple-500">legalese</footer>
+      <footer className="border-2 border-purple-500">legalese</footer> */}
     </div>
   );
 }
