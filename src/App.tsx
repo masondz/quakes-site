@@ -37,20 +37,20 @@ function App() {
         className="h-screen flex justify-end "
       >
         <header id="hero-section" className="w-screen flex justify-end">
-          <div className="w-content h-screen border-dotted border-2 flex-col pr-4 w-1/2">
-            <p className="font-lilita text-[14rem] text-green-500 leading-tight">
+          <img
+            src="/iceCreamConeWCircle.png"
+            className="absolute -left-8 bottom-0 h-screen border-b-[2rem]  divide-x border-dotted border-green-400"
+          />
+          <div className="z-2 w-content rotate-2 h-screen border-dotted border-2 flex-col pr-4 w-1/2">
+            <p className=" rounded-[4rem] h-fit font-lilita md:text-[14rem] text-green-500 bg-purple-600 leading-tight">
               Quakes
             </p>
-            <p className="right-96 font-lilita leading-none text-[6rem] text-green-500">
+            <p className="right-96  font-lilita leading-none text-[6rem] text-green-500 bg-purple-600 rounded-lg">
               Ice Creamery
             </p>
           </div>
         </header>
         {/* <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-80 left-20 "></div> */}
-        <img
-          src="/iceCreamConeWCircle.png"
-          className="object-center absolute -left-8 bottom-40  border-b-[2rem]  divide-x border-dotted border-green-400"
-        />
       </section>
       {/* <section className="border-2 border-purple-500">Our Flavors</section>
       <section className="border-2 border-purple-500">Where to find us</section>
