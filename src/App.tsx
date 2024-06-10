@@ -36,18 +36,20 @@ function App() {
         aria-labelledby="hero-section"
         className="h-screen flex justify-end "
       >
-        <header id="hero-section">
-          <div className="w-content border-2 flex-col pr-4">
-            <h1 className="font-lilita text-7xl">Quakes</h1>
-            <h2 className="right-96 font-lilita text-4xl">Ice Creamery</h2>
+        <header id="hero-section" className="w-screen flex justify-end">
+          <div className="w-content h-screen border-dotted border-2 flex-col pr-4 w-1/2">
+            <p className="font-lilita text-[14rem] text-green-500 leading-tight">
+              Quakes
+            </p>
+            <p className="right-96 font-lilita leading-none text-[6rem] text-green-500">
+              Ice Creamery
+            </p>
           </div>
         </header>
-
-        <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-80 left-20 "></div>
+        {/* <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-80 left-20 "></div> */}
         <img
           src="/iceCreamConeWCircle.png"
-          className="opacity-35a object-center before:absolute before:h-10 before:w-10 before:bg-blue-300 before:rounded-full
-          absolute -left-8 bottom-40  border-b-8 divide-x border-dotted border-green-400"
+          className="object-center absolute -left-8 bottom-40  border-b-[2rem]  divide-x border-dotted border-green-400"
         />
       </section>
       {/* <section className="border-2 border-purple-500">Our Flavors</section>

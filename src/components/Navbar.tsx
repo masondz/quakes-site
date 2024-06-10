@@ -12,5 +12,5 @@ export const Navbar = ({ children }: { children: React.ReactNode }) => {
 };
 
 export const ListItem = ({ children }: { children: React.ReactNode }) => {
-  return <a className="text-black flex font-nerko underline">{children}</a>;
+  return <a className="text-black flex font-lilita underline">{children}</a>;
 };
