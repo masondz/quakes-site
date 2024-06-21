@@ -22,32 +22,35 @@ function App() {
 
   return (
     <div>
-      <div className="flex flex-row justify-end">
-        {" "}
-        {/*puts nav at end*/}
-        <Navbar>
-          <ListItem>About</ListItem>
-          <ListItem>Flavors</ListItem>
-          <ListItem>Where to Buy</ListItem>
-          <ListItem>Contact</ListItem>
-        </Navbar>
-      </div>
       <section
         aria-labelledby="hero-section"
         className="h-screen flex justify-end "
       >
-        <header id="hero-section" className="w-screen flex justify-end">
+        <header
+          id="hero-section"
+          className="w-screen flex justify-end bg-purple-900"
+        >
           <img
             src="/iceCreamConeWCircle.png"
             className="absolute -left-8 bottom-0 h-screen border-b-[2rem]  divide-x border-dotted border-green-400"
           />
-          <div className="z-2 w-content rotate-2 h-screen border-dotted border-2 flex-col pr-4 w-1/2">
-            <p className=" rounded-[4rem] h-fit font-lilita md:text-[14rem] text-green-500 bg-purple-600 leading-tight">
+          <div className="z-2 w-content rotate-2 h-screen flex-col pr-4 w-1/2">
+            <p className=" rounded-[4rem] h-fit font-lilita text-[14rem] text-green-500 leading-tight">
               Quakes
             </p>
-            <p className="right-96  font-lilita leading-none text-[6rem] text-green-500 bg-purple-600 rounded-lg">
+            <p className="right-96  font-lilita leading-none text-[6rem] text-green-500 rounded-lg">
               Ice Creamery
             </p>
+          </div>
+          <div className="flex flex-row justify-end fixed w-full z-100 h-16 bg-white">
+            {" "}
+            {/*puts nav at end*/}
+            <Navbar>
+              <ListItem>About</ListItem>
+              <ListItem>Flavors</ListItem>
+              <ListItem>Where to Buy</ListItem>
+              <ListItem>Contact</ListItem>
+            </Navbar>
           </div>
         </header>
         {/* <div className="absolute w-96 h-96 rounded-full bg-purple-500 top-80 left-20 "></div> */}
