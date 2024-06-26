@@ -35,7 +35,7 @@ function App() {
             className="absolute -left-8 bottom-0 h-screen border-b-[2rem]  divide-x border-dotted border-green-400"
           />
           <div className="z-2 w-content rotate-2 h-screen flex-col pr-4 w-1/2">
-            <p className=" rounded-[4rem] h-fit font-lilita text-[14rem] text-green-500 leading-tight">
+            <p className=" rounded-[4rem] h-fit font-lilita text-[14rem] text-green-500 leading-tight mt-10">
               Quakes
             </p>
             <p className="right-96  font-lilita leading-none text-[6rem] text-green-500 rounded-lg">
