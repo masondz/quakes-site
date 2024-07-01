@@ -28,21 +28,23 @@ function App() {
       >
         <header
           id="hero-section"
-          className="w-screen flex justify-end bg-purple-900"
+          className="w-screen flex justify-end bg-purple-900 "
         >
+          <div className="h-[56px] bg-white absolute w-full"></div>
           <img
             src="/iceCreamConeWCircle.png"
-            className="absolute -left-8 bottom-0 h-screen border-b-[2rem]  divide-x border-dotted border-green-400"
+            className="absolute -left-8 bottom-0 h-screen border-b-[2rem]  divide-x border-dotted border-green-400 shrink-1"
           />
           <div className="z-2 w-content rotate-2 h-screen flex-col pr-4 w-1/2">
-            <p className=" rounded-[4rem] h-fit font-lilita text-[14rem] text-green-500 leading-tight mt-10">
+            <p className=" rounded-[4rem] h-fit font-lilita text-[14rem] text-green-400 leading-tight mt-10">
               Quakes
             </p>
-            <p className="right-96  font-lilita leading-none text-[6rem] text-green-500 rounded-lg">
+            <p className="right-96  font-lilita leading-none text-[6rem] text-green-400 rounded-lg">
               Ice Creamery
             </p>
+            <p className="font-lilita text-[2.5rem] text-green-400 leading-loose mt-24 w-[90%] -rotate-2">Quakes Ice Creamery serves <span className="text-white">frozen custard</span> and other treats on the Mississippi Coast and beyond.</p>
           </div>
-          <div className="flex flex-row justify-end fixed w-full z-100 h-16 bg-white">
+          <div className="flex flex-row justify-end fixed z-100 h-16 ">
             {" "}
             {/*puts nav at end*/}
             <Navbar>
